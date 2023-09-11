@@ -213,7 +213,6 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 	margin: 0 auto;
 	box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-
 }
 .header-container {
   display: flex;
@@ -222,11 +221,12 @@ ul {
   justify-content: space-around;
   margin: 0 auto;
 	width: 1158px;
-
+	position: relative;
 }
 .header-nav {
   display: flex;
   align-items: center;
+	
 }
 .header-logo {
   font-family: Raleway, sans-serif;
@@ -235,14 +235,9 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #404bbf;
   margin-right: 76px;
-
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-	position: relative;
 }
-.header-logo::after {
+.header-nav-item::after {
   content: "";
 	position: absolute;
 	left: 0;
@@ -267,6 +262,9 @@ ul {
   padding: 24px 0;
 }
 .header-nav-item {
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	position: relative;
+  color: #404bbf;
 }
 .logo-n-icon {
   color: var(--color-f42);
@@ -275,10 +273,9 @@ ul {
 .adress-list {
   display: flex;
   gap: 40px;
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link-mailto,
-address-link-tel {
+ address-link-tel {
   font-style: normal;
   letter-spacing: 0.02em;
 }
