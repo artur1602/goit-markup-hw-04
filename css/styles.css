@@ -456,13 +456,11 @@ ul {
 .modal-btn:hover,
 .modal-btn:focus {
 	border: none;
-  background-color: #404bbf;
 	fill: #ffffff;
 }
 .modal:hover,
 .modal:focus {
-		border: none;
-  background-color: #404bbf;
+	border: none;
 	fill: #ffffff;
 }
 .modal-btn-icon {
