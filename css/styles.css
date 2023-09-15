@@ -782,14 +782,16 @@ fill: #FFFFFF;
 
 }
 
-.modal-btn:hover,
+/*.modal-btn:hover,
 .modal-btn:focus {
   background-color: #404BBF;
   border: none;
-}
+}*/
 
 .modal-btn:focus .modal-btn-icon,
 .modal-btn:hover .modal-btn-icon {
 fill: #FFFFFF;
+  background-color: #404BBF;
+  border: none;
 }
 
