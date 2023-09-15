@@ -773,11 +773,11 @@ ul {
   background-color: #E7E9FC;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-btn .modal-btn-icon:focus {
+.modal-btn:focus .modal-btn-icon{
 background-color: var(--background-color-bbf); 
 border: none;
 }
-.modal-btn .modal-btn-icon:hover {
+.modal-btn:hover .modal-btn-icon{
 fill: #FFFFFF;
 background-color: var(--background-color-bbf);
 	 border: none;
