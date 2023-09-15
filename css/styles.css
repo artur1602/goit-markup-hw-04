@@ -440,8 +440,8 @@ ul {
 	top: 24px;
 	right: 24px;
 	display: flex;
-	width: 24px;
-	height: 24px;
+	width: 8px;
+	height: 8px;
 	border-radius: 50%;
 	background-color: transparent;
 	padding: 0;
@@ -460,11 +460,6 @@ ul {
 	background-color: #404bbf;
 }
 .modal-btn-icon {
- display: flex;
- align-items: center;
- justify-content: center;
- border: 1px solid rgba(0, 0, 0, 0.1);
- padding: 0;
  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn-icon:hover,
@@ -652,7 +647,6 @@ ul {
 }
 .customers-item {
   width: 168px;
-  padding: 16px 32px;
 	height: 88px;
 	width: calc((100% - 120px) / 6);
 }
@@ -753,8 +747,9 @@ ul {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.image-link:hover,
-.image-link:focus  {
+.image-link:hover .overlay-text,
+.image-link:focus .overlay-text {
+  transform: translateY(0%);
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .business-thumb {
