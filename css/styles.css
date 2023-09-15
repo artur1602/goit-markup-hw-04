@@ -760,35 +760,31 @@ ul {
    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn {
-	position: absolute;
-	top: 24px;
-	right: 24px;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;	
-
-	width: 24px;
-	height: 24px;
-	border-radius: 50%;
-	padding: 0;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	cursor: pointer;
-  background-color: #E7E9FC;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .modal-btn-icon {
- transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: #404BBF;
   border: none;
+  background-color: var(--background-color-bbf);
 }
-.modal-btn-icon:hover,
-.modal-btn-icon:focus {
-fill: #FFFFFF;
+.modal-btn:hover > .modal-btn-icon,
+.modal-btn:focus > .modal-btn-icon {
+  fill: #ffffff;
 }
