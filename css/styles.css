@@ -771,14 +771,13 @@ ul {
 	justify-content: center;
 	align-items: center;
   background-color: #E7E9FC;
-	fill: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-btn:focus {
+.modal-btn .modal-btn-icon:focus {
 background-color: var(--background-color-bbf); 
 border: none;
 }
-.modal-btn:hover {
+.modal-btn .modal-btn-icon:hover {
 fill: #FFFFFF;
 background-color: var(--background-color-bbf);
 	 border: none;
