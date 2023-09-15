@@ -775,12 +775,12 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:focus {
-background-color: #404BBF; 
+background-color: var(--background-color-bbf); 
 border: none;
 }
 .modal-btn:hover {
 fill: #FFFFFF;
-	background-color: #404bbf;
+background-color: var(--background-color-bbf);
 	 border: none;
 }
 .modal-btn-icon {
