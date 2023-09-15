@@ -785,10 +785,10 @@ ul {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  transition: background-color #404BBF;
+  background-color: #404BBF;
   border: none;
 }
-.modal-btn:focus .modal-btn-icon,
-.modal-btn:hover .modal-btn-icon {
+.modal-btn-icon:hover,
+.modal-btn-icon:focus {
 fill: #FFFFFF;
 }
