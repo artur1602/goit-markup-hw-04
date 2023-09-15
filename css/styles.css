@@ -777,12 +777,13 @@ position: absolute;
 }
 
 .modal-btn-icon {
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .modal-btn:hover,
 .modal-btn:focus {
   border: none;
-  background-color: var(--background-color-bbf);
+  background-color: #404bbf;
 }
 .modal-btn:hover > .modal-btn-icon,
 .modal-btn:focus > .modal-btn-icon {
