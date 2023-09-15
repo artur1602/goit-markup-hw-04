@@ -771,22 +771,24 @@ ul {
 	cursor: pointer;
 	justify-content: center;
 	align-items: center;
-  background-color: #e7e9fc;
+  background-color: #E7E9FC;
+	fill: #ffffff;
 	border: 1px solid rgba(0, 0, 0, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:focus {
-	fill: #ffffff;
-	background-color: #404bbf;
-	 border: none;
+background-color: #404BBF; 
+border: none;
 }
 .modal-btn:hover {
-	fill: #ffffff;
+fill: #FFFFFF;
 	background-color: #404bbf;
 	 border: none;
 }
 .modal-btn-icon {
  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #FFFFFF;
+
 }
 
 
