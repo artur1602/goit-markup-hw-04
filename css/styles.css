@@ -824,15 +824,12 @@ descriptions-subtitle {
   margin-bottom: 24px;
 }
 .input-user-privacy:checked ~ .user-privacy-text .privacy-icon-style {
-  background-color: var(--bgcbbf);
+  background-color: var(--bbf);
   border: none;
   fill: #f4f4fd;
 }
 .input-user-privacy:checked ~ .user-privacy-text .privacy-icon-style svg {
   scale: 1;
-  background-color: var(--bgcbbf);
-  border: none;
-  fill: #f4f4fd;
 }
 .input-user-privacy:focus:focus-visible
   ~ .user-privacy-text
