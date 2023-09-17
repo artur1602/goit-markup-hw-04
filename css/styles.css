@@ -1,6 +1,7 @@
 :root {
   --color: #434455;
 
+  --aa: #31d0aa;
   --ae5: #4d5ae5;
   --bgcae5: #4d5ae5;
   --bgae5: #4d5ae5;
@@ -317,7 +318,7 @@ ul {
 }
 .footer-links.footer-socials-link:hover,
 .footer-links.footer-socials-link:focus {
-  background-color: #31d0aa;
+  background-color: var(--aa);
 }
 .footer-form {
   gap: 24px;
