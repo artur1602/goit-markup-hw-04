@@ -448,6 +448,11 @@ ul {
 }
 .section-descriptions {
   width: calc((100% - 72px) / 4);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/img-name.jpeg);
 }
 .descriptions-subtitle {
   font-size: 20px;
@@ -954,7 +959,7 @@ descriptions-subtitle {
   top: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: rgba (244, 244, 253, 1);
+  color: #f4f4fd;
   padding: 40px 32px;
   background-color: #4d5ae5;
   transform: translateY(100%);
