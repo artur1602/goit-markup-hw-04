@@ -397,10 +397,11 @@ ul {
   margin-bottom: 24px;
 }
 /*HERO*/
-.hero-images {
+.hero-img {
   margin: 0 auto;
   background-color: var(--cl-dark);
   padding: 188px 0 188px;
+  background-image: url("../images/hero/people-office.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
